@@ -1,0 +1,152 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+ #container{
+    width: 100%; 
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color:#333; 
+    padding: 0px 50px; 
+}
+h1 {
+    font-family: cursive;
+    font-size: 64px;
+    color: #cd143c;
+}
+h2 {
+    padding: 0px 0px 20px 0px;
+    font-size: 28px;
+}
+h3 {
+    padding: 20px, 0px;
+}
+.input {
+    border:1px solid #ccc;
+    border-radius: 2px;
+    margin: 0px 0px 8px 0px;
+    width: 250px;
+    height: 20px;
+    padding: 5px; 
+}
+.categ {
+    line-height: 0.1em;
+    font-size: 15px;
+} 
+.txtar {
+    border:1px solid #ccc;
+    border-radius: 2px;
+    margin: 0px 0px 8px 0px;
+    padding: 5px; 
+    width: 400px;
+    height: 100px;
+    font-size: 15px;
+}
+.btn {
+    border:1px solid #14dbb4;
+    border-radius: 2px;
+    width: 120px;
+    height: 30px;
+    padding: 5px; 
+    background: #14dbb4;
+    color: #fff;
+    font-size: 15px;
+}
+.btn_top {
+    border:1px solid #143cdb;
+    border-radius: 2px;
+    width: 120px;
+    height: 30px;
+    padding: 5px; 
+    background: #143cdb;
+    color: #fff;
+    font-size: 15px;
+    margin: 10px 0px 0px 70%;
+    display: inline-block;
+}
+.btn_del {
+    border:1px solid #dc143c;
+    border-radius: 2px;
+    width: 55px;
+    height: 20px;
+    padding: 4px; 
+    background: #dc143c;
+    color: #fff;
+    font-size: 15px;
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    margin: 0px 0px 0px 15px;
+}
+.btn_unlike {
+    border:1px solid #143cdb;
+    border-radius: 2px;
+    width: 55px;
+    height: 20px;
+    padding: 4px; 
+    background: #143cdb;
+    color: #fff;
+    font-size: 15px;
+    text-decoration: none;
+    text-align: center;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0px 0px 0px 15px;
+}
+.btn_like {
+    border:1px solid #14dbb4;
+    border-radius: 2px;
+    width: 65px;
+    height: 29px;
+    padding: 4px; 
+    background: #14dbb4;
+    color: #fff;
+    font-size: 15px;
+    text-decoration: none;
+    display: inline-block;
+    margin: 0px 0px 0px 15px;
+}
+.err {
+    font-size: 13px;
+    line-height: 1.1 em;
+    color: #cd143c
+}
+.inln {
+    display: inline-block;
+}
+a :link, a :visited {
+    color: #143cdb;
+    text-decoration: none;
+}
+table, td  {
+    border-collapse: collapse;
+    padding: 10px 20px 10px 0px;  
+    text-overflow: visible;
+    vertical-align: top; 
+    /* background-color: #dbb414; */
+}
+
+/* tr:nth-child(1) {
+    border-top: 1px dotted #ccc;
+}     */
+.col1 {
+    width: 600px;
+}
+.col2 {
+    width: 250px;
+}
+.like {
+    color: #14dbb4;
+}
